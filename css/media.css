@@ -1,24 +1,116 @@
+@media screen and (max-width: 428px) {
+    .benefits-block {
+            display: none;
+        }
+    .people-list{
+        justify-content: center;
+   }
+   .customers-list{
+    justify-content: center;
+   }
+}
+
 @media screen and (min-width: 428px){
     .container{
         max-width: 396px;
         padding: 0;
     }
+   .benefits-block{
+    display: none;
+   }
+   .people-list{
+    justify-content: center;
+   }
+   .customers-item{
+    width: calc((100% - 16px * 3) / 2);
+   }
+   .customers-item{
+    margin-bottom: 48px;
+   }
 }
 
 @media screen and (min-width: 768px){
     .container{
-        max-width: 738px;
+        max-width: 736px;
     }
+    .customers > .container{
+        max-width: 552px;
+    }
+    .benefits-block{
+        display: none;
+    }
+
     .benefits-item{
-        width: calc((100% - 24px * 2) / 2);
+        width: calc((100% - 24px) / 2);
     }
     .benefits-list{
-        gap: 24px;
+         gap: 72px 24px;
     }
     .benefits-title{
         text-align: left;
     }
     .benefits-text{
         display: flex;
+        align-items: start;
+       
     }
+    .people-list{
+        gap: 24px;
+    }
+    .cards{
+        margin-bottom: 64px;
+    }
+    .customers-list{
+        gap: 24px;
+    }
+     .customers-item {
+         width: calc((100% - 24px * 2) / 3);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+            max-width: 1158px;
+        }
+        .customers > .container{
+            max-width: 1158px;
+        }
+        .benefits{
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+        .benefits-list{
+            gap: 24xp;
+         }
+         .benefits-item{
+            width: calc((100% - 72px) / 4);
+         }
+         .benefits-title{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+         }
+        .benefits-block {
+          width: 264px;
+          height: 112px;
+          border-radius: 4px;
+          background: #f4f4fd;
+          margin-bottom: 8px;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+        }
+        .who-we-are{
+            padding: 120px 0 120px ;
+        }
+        .cards{
+            width: calc((100% - 72px) / 4);
+        }
+        .customers-list{
+            gap: 24px;
+        }
+        .customers-item{
+            width: calc((100% - 120px) / 6);
+        }
 }
