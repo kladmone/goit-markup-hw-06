@@ -27,6 +27,9 @@
    .customers-item{
     margin-bottom: 48px;
    }
+   .footer-input{
+    width: 398px;
+   }
 }
 
 @media screen and (min-width: 768px){
@@ -65,6 +68,17 @@
     }
      .customers-item {
          width: calc((100% - 24px * 2) / 3);
+    }
+    .footer-container{
+        display: flex;
+        align-items: baseline;
+    }
+    .footer-block{
+        display: flex;
+    }
+    .footer-form-container{
+        display: flex;
+        flex-direction: column;
     }
 }
 
