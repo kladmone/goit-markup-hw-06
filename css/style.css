@@ -313,6 +313,7 @@ body {
 .people-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 72px;
   /* gap: 24px; */
 }
 
@@ -381,7 +382,7 @@ body {
 }
 
 .cards {
-  margin-bottom: 72px;
+  max-height: 428px;
   background-color: var(--true-white-color);
   /* width: calc((100% - 72px) / 4); */
   border-radius: 0px 0px 4px 4px;
@@ -445,11 +446,6 @@ body {
 }
 
 /* Footer */
-
-.footer-container {
-  /* display: flex;
-  align-items: baseline; */
-}
 
 .footer-block {
   /* margin-right: 120px; */
@@ -532,10 +528,6 @@ body {
   max-width: 264px;
   /* margin-left: 69px; */
   margin-bottom: 72px;
-}
-
-.footer-form-container {
-  /* margin-left: 80px; */
 }
 
 .footer-form {
