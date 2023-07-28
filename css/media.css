@@ -1,4 +1,4 @@
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 320px) {
     .benefits-block {
             display: none;
         }
@@ -11,15 +11,24 @@
    .customers-list{
     justify-content: center;
    }
+   .mob-socials{
+    gap: 30px;
+   }
+   .tel-mob-link{
+    font-size: 25px;
+   }
+   .modal{
+    width: 305px;
+   }
+    .our-people {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 428px){
     .container{
         max-width: 396px;
         padding: 0;
-    }
-    .current::after{
-        display: none;
     }
    .benefits-block{
     display: none;
@@ -53,6 +62,21 @@
     }
     .header-menu{
         display: flex;
+    }
+    .logo{
+        margin-right: 120px;
+    }
+    .current::after {
+        display: flex;
+    }
+    .mail-tel{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: flex-end;
+    }
+    .menu-open-btn{
+        display: none;
     }
     .mail-tel{
         display: flex;
@@ -152,6 +176,9 @@
         }
         .customers > .container{
             max-width: 1158px;
+        }
+        .mail-tel{
+            gap: 40px;
         }
         .hero{
         padding-top: 188px;

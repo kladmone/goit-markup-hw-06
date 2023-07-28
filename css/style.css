@@ -136,6 +136,7 @@ body {
 }
 
 .current::after {
+  display: none;
   content: "";
   position: absolute;
   width: 100%;
@@ -210,6 +211,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+.mob-close-icon{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .menu-open-btn{
   display: flex;
   border: none;
@@ -258,6 +265,7 @@ body {
 }
 .mob-socials{
   display: flex;
+  margin-top: 48px;
   gap: 54px;
 }
 
