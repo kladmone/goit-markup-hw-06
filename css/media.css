@@ -28,7 +28,6 @@
 @media screen and (min-width: 428px){
     .container{
         max-width: 396px;
-        padding: 0;
     }
    .benefits-block{
     display: none;
@@ -45,6 +44,7 @@
    .footer-input{
     width: 398px;
    }
+   
    .our-people{
     display: none;
    }
@@ -58,6 +58,9 @@
         max-width: 736px;
     }
     .customers > .container{
+        max-width: 552px;
+    }
+    .footer > .container{
         max-width: 552px;
     }
     .header-menu{
@@ -82,7 +85,7 @@
         display: flex;
     }
     .hero{
-        padding: 112px 136px 112px 136px;
+        padding: 112px 0 112px 0;
         background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
@@ -99,6 +102,7 @@
         }
     }
     .hero-title{
+        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
     }
@@ -133,12 +137,16 @@
      .customers-item {
          width: calc((100% - 24px * 2) / 3);
     }
+    .customers-item{
+        margin-bottom: 0;
+    }
    .footer-container{
     display: flex;
     flex-wrap: wrap;
+    row-gap: 72px;
    }
    .footer-block{
-    margin-left: 108px;
+    display: flex;
     align-items: start;
    }
    .logo-footer{
@@ -156,14 +164,13 @@
    .footer-form{
     display: flex;
     flex-direction: row;
-    margin-left: 108px;
+    justify-content: center;
    }
    .footer-input{
     width: 264px;
    }
    .footer-form-text{
     justify-content: start;
-    margin-left: 108px;
    }
    .our-people {
      display: none;
@@ -175,6 +182,9 @@
             max-width: 1158px;
         }
         .customers > .container{
+            max-width: 1158px;
+        }
+        .footer > .container{
             max-width: 1158px;
         }
         .mail-tel{
@@ -249,11 +259,11 @@
         .footer-container{
             display: flex;
             flex-wrap: nowrap;
-            padding: 0;
+            justify-content: space-between;
+
         }
         .footer-block{
             margin-left: 0px;
-            margin-right: 120px;
         }
         .footer-socials-list{
             margin-bottom: 0;
@@ -264,12 +274,6 @@
         }
         .footer-socials-title{
             align-items: start;
-        }
-       .footer-form-text{
-        margin-left: 80px;
-       }
-        .footer-form{
-            margin-left: 80px;
         }
         .footer-socials{
             margin: 0;
