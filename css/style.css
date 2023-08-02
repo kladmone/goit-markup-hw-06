@@ -546,8 +546,8 @@ body {
 
 /* Footer */
 
+
 .footer-block {
-  /* margin-right: 120px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -625,8 +625,6 @@ body {
   color: var(--cloud-color);
   letter-spacing: 0.02em;
   max-width: 264px;
-  /* margin-left: 69px; */
-  /* margin-bottom: 72px; */
 }
 
 .footer-form {

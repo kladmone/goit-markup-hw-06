@@ -51,6 +51,11 @@
    .cards{
     margin-bottom: 0;
    }
+   .footer-container{
+   display: flex;
+   flex-direction: column;
+   gap: 72px;
+}
 }
 
 @media screen and (min-width: 768px){
@@ -142,6 +147,7 @@
     }
    .footer-container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
    }
