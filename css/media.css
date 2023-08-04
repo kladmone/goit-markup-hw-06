@@ -51,11 +51,6 @@
    .cards{
     margin-bottom: 0;
    }
-   .footer-container{
-   display: flex;
-   flex-direction: column;
-   gap: 72px;
-}
 }
 
 @media screen and (min-width: 768px){
@@ -218,6 +213,9 @@
         .benefits{
             padding-top: 120px;
             padding-bottom: 120px;
+        }
+        .benefits-block{
+            display: flex;
         }
         .benefits-list {
             gap: 24px;
